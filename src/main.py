@@ -13,9 +13,9 @@ pygame.init()
 
 pygame.mixer.music.load("./src/assets/music_fondo_pcman.mp3") 
 
-pygame.mixer.music.play(-1)# estoo es para q quede en un loop infinito
+pygame.mixer.music.play(-1)
 
-pygame.mixer.music.set_volume(0.1) # esto es para controlar el volumen
+pygame.mixer.music.set_volume(0.1) 
 
 fuente = pygame.font.SysFont("Cambria", 36)
 
